@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> object model -> 'DOM'</title>
+    <style>
+        .boton{
+            padding: 10px;
+            background-color: #4CAF50; /* Green */
+            color:white
+        }
+        .boton-red{
+            padding: 10px;
+            background-color: #f44336; /* Red */
+            color:white
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Eventos inline</h1>
+    <button class="boton" onclick="alert('Hola')">Click </button>
+    <br>
+    <button  class="boton"  onclick="mostrarAlesta()">Mostrar alerta </button>
+    <br>
+    <imput type="text" oninput="console.log(this.value)">
+    <br>
+    <button class="boton"  onclick="agregarProducto()">agregar producto</button>
+    <br>
+    <br>
+    <ul id="listaProductos"></ul>
+    <h1>EVENTOS POR addEventlistener</h1>
+    <button class="boton" id="boton">haz Click</button>
+    <br>
+    <input type="text" id="campo" placeholder="Escribe algo..."/>
+    <br>
+    <button id="btnagregar">agregar producto</button>
+    <ul id="listaProductos2"></ul>
+
+
+    <script src="dom05-eventos.js"></script>
+</body>
+
+<body>
+    <h1>Eventos online</h1>
+    <button class="boton" onclick="alert('Hola reyes')">Click </button>
+    <br>
+    <button  class="boton"  onclick="mostrarAlesta()">Mostrar alertas </button>
+    <br>
+    <imput type="text" oninput="console.log(this.value)">
+    <br>
+    <button class="boton"  onclick="agregarProducto()">agregar productos</button>
+    <br>
+    <br>
+    <ul id="listaProductos"></ul>
+    <h1>EVENTOS POR addEventlistener</h1>
+    <button class="boton" id="boton">haz Click</button>
+    <br>
+    <input type="text" id="campo" placeholder="Escribe algo..."/>
+    <br>
+    <button id="btnagregar">agregar producto</button>
+    <ul id="listaProductos2"></ul>
+
+
+    <script src="dom05-eventos.js"></script>
+</body>
+
+</html>

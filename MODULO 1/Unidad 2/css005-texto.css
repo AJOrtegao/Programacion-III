@@ -1,0 +1,15 @@
+.texto{
+    color: #289fbd;
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow',;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align:right;
+    text-decoration: underline;
+    text-transform:capitalize;
+    letter-spacing: 0.3ch;
+    word-spacing: 1px;
+    white-space: nowrap;
+    
+
+}

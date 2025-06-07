@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Venta de Casas</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        form input {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .casa {
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            padding: 10px;
+            margin: 10px 0;
+            transition: 0.3s;
+        }
+
+        .casa:hover {
+            background-color: #e6f7ff;
+        }
+
+        .acciones {
+            margin-top: 5px;
+        }
+
+        .acciones button {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gestor de Casas en Venta</h1>
+    <form id="formulario">
+        <input type="text" id="direccion" placeholder="Dirección" required>
+        <input type="text" id="descripcion" placeholder="Descripción" required>
+        <input type="number" id="precio" placeholder="Precio" required>
+        <button type="submit">Agregar Casa</button>
+    </form>
+
+    <section id="contenedorCasas"></section>
+
+    <script src="dom10-casas.js"></script>
+</body>
+
+<body>
+    <h1>Gestor de TIENDAS NBA</h1>
+    <form id="formulario">
+        <input type="text" id="direccion" placeholder="Dirección" required>
+        <input type="text" id="descripcion" placeholder="Descripción" required>
+        <input type="number" id="precio" placeholder="Precio" required>
+        <button type="submit">Agregar TIENDA</button>
+    </form>
+
+    <section id="contenedorCasas"></section>
+
+    <script src="dom10-casas.js"></script>
+</body>
+
+
+</html>
